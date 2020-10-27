@@ -35,9 +35,11 @@ function Login() {
     return (
         <div className = "login">
         <Link to = "/">
-            <img 
+        <h3 className="header_logo" >ElecStore</h3>
+
+            {/* <img 
             className = "login_logo"
-            src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1280px-Amazon_logo.svg.png" alt="" />
+            src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1280px-Amazon_logo.svg.png" alt="" /> */}
        </Link>
        <div className = "login_container">
        <h1>Sign-in</h1>

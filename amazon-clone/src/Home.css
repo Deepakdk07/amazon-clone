@@ -19,12 +19,21 @@
     }
     .home_image{
         margin-bottom: -50px !important;
+       
+    }
+    .home_container{
+        overflow: hidden;
+    }
+    .home_container > img {
+        width: 200%;
+        margin-left: -180px;
+        
     }
 
 }
 .home_image{
     width: 100%;
     z-index: -1;
-    margin-bottom: -150px;
+    margin-bottom: -180px;
     mask-image:  linear-gradient(to bottom, rgba(0, 0, 0, 1),rgba(0, 0, 0, 0));
 }

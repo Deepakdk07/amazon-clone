@@ -3,6 +3,7 @@ import './Payment.css'
 import { useStateValue } from './StateProvider'
 import CheckoutProduct from './CheckoutProduct'
 import { Link } from 'react-router-dom'
+import { Input } from '@material-ui/core'
 
 function Payment() {
     const [{ basket, user}, dispatch ] = useStateValue()
@@ -20,8 +21,7 @@ function Payment() {
                         </h3>
                         <div className =  "payment__address">
                             <p>{user?.email}</p>
-                            <p>123 React Lane</p>
-                            <p>Los Angeles,CA</p>
+                            <Input placeholder = "Address" />
                         </div>
 
                     </div>

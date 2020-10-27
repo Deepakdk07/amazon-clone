@@ -17,12 +17,13 @@ function Header() {
 
     return (
         <div className = "header">
-        <Link to = "/">
-        <img
+        <Link to = "/" style = {{textDecoration:"none"}}>
+        {/* <img
         className="header_logo" 
         src="http://pngimg.com/uploads/amazon/amazon_PNG25.png"
         alt="logo"
-         />
+         /> */}
+         <h3 className="header_logo" >ElecStore</h3>
          </Link>
         
            <div className = "header_search">
